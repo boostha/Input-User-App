@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  line-height: 150%;
+  background-image: linear-gradient(rgb(204, 115, 255), rgb(255, 255, 255)) ;
+}
+
+input {
+  width: 200px;
+}
+
+.form {
+  width: fit-content;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(73, 73, 73);
+}
+
+.form-wrapper {
+  padding: 1rem 2rem;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-input input {
+  margin: 0.3rem 0;
+}
+
+.btn {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.user-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  padding: 4rem;
+  margin-top: 5rem;
+}
+
+.user-list {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(73, 73, 73);
+}
+
+.user-list > * {
+  padding: 0.5rem 0;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.info-container > * {
+  padding: 0.5rem 0;
+}
+
+.la-trash {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
