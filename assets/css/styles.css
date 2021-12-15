@@ -10,8 +10,15 @@ body {
   background-image: linear-gradient(rgb(204, 115, 255), rgb(255, 255, 255)) ;
 }
 
+/* FORM SECTION */
+
 input {
   width: 200px;
+  margin: 0.3rem 0;
+}
+
+label {
+  font-weight: 700;
 }
 
 .form {
@@ -34,10 +41,6 @@ input {
   align-items: flex-start;
 }
 
-.form-input input {
-  margin: 0.3rem 0;
-}
-
 .btn {
   background-color: white;
   padding: 0.5rem 1rem;
@@ -45,6 +48,8 @@ input {
   border: 1px solid black;
   border-radius: 5px;
 }
+
+/* USER SECTION */
 
 .user-section {
   display: grid;
@@ -62,17 +67,13 @@ input {
   box-shadow: 0 2px 5px rgb(73, 73, 73);
 }
 
-.user-list > * {
+.user-list > *, .info-container > * {
   padding: 0.5rem 0;
 }
 
 .info-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.info-container > * {
-  padding: 0.5rem 0;
 }
 
 .la-trash {

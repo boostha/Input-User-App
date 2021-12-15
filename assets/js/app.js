@@ -1,7 +1,8 @@
+// Declare Variables
 const submitButton = document.querySelector('.btn')
 
 
-
+// User Submit
 document.addEventListener('DOMContentLoaded', () => {
 
   submitButton.addEventListener('click', (event) => {
@@ -37,6 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 })
 
+
+// Add User
 function addUser() {
   let getLocalStorage = localStorage.getItem('User')
 
@@ -85,6 +88,7 @@ function addUser() {
   document.querySelector('.user-section').innerHTML = output
 }
 
+// Delete User
 function deleteUser(index) {
   let getLocalStorage = localStorage.getItem('User')
   userInfo = JSON.parse(getLocalStorage)
