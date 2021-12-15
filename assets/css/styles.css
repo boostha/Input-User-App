@@ -7,7 +7,8 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
   line-height: 150%;
-  background-image: linear-gradient(rgb(204, 115, 255), rgb(255, 255, 255)) ;
+  background-image: linear-gradient(rgb(204, 115, 255), rgb(255, 255, 255));
+  background-repeat: no-repeat;
 }
 
 /* FORM SECTION */
